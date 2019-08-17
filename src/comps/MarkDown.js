@@ -14,8 +14,8 @@ class MarkDown extends React.Component {
     //     const output = document.getElementById('userText').innerHTML = e.target.value;
     // }
     render() {
-      const placeholder = 
-      '# This is a header';
+      // const placeholder = 
+      // '# This is a header'
 
     
         return (
