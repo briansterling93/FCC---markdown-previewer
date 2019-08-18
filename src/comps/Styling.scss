@@ -1,30 +1,30 @@
 body {
     background-color: #7E7390;
-}
-
-#element {
+  }
+  
+  #element {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-#editor {
+  }
+  
+  #editorDiv {
     background-color: #9E9BA2;
     width: 40rem;
     height: 15rem;
-}
-
-#preview {
+  }
+  
+  #previewDiv {
     background-color: #BEBCC1;
     width: 60rem;
     height: 58rem;
-}
-
-.headers {
+  }
+  
+  .headers {
     margin: 0;
     background-color: #665A77
-}
-
-.editorColor {
+  }
+  
+  .editorColor {
     background-color: #BEBCC1;
-}
+  }
