@@ -21,9 +21,6 @@ class MarkDown extends React.Component {
       \n\n![React Logo w/ Text](https://goo.gl/Umyytc)`
     };
   }
-  updateText(e) {
-    document.getElementById("userText").innerHTML = this.placeholder;
-  }
   render() {
     return (
       <div id="element">
@@ -36,8 +33,7 @@ class MarkDown extends React.Component {
             cols="88"
             className="editorColor"
             value={this.state.placeholder}
-            name="placeholderValue"
-            onChange={this.updateText}
+            onChange={e => this.setState({placeholder: e.target.value})}
             id="editor"
           />
         </div>
